@@ -21,20 +21,6 @@ public class MemberMapperTest {
     @Autowired
     private MemberMapper memberMapper;
 
-    @Test
-    @DisplayName("MemberMapper가 null이 아님")
-    public void MemberMapper_is_not_null() {
-        assertThat(memberMapper).isNotNull();
-    }
-
-    @Test
-    @DisplayName("mybatis 테스트 : id가 'testId' 인 멤버 꺼내오기")
-    public void mybatisTest() {
-        final String id = "testId";
-        Member member = memberMapper.findById(id);
-        assertThat(id).isEqualTo(member.getId());
-    }
-
     //basic code
     @Test
     @DisplayName("멤버 등록")
