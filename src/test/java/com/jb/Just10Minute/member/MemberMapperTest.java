@@ -21,9 +21,23 @@ public class MemberMapperTest {
     @Autowired
     private MemberMapper memberMapper;
 
-    //basic code
     @Test
-    @DisplayName("멤버 등록")
+    @DisplayName("id로 멤버 찾기 테스트")
+    public void findById() {
+        //given
+        final String id = "initId";
+
+        //when
+        Member member = memberMapper.findById(id);
+
+        //then
+        assertThat(member.getId()).isEqualTo("initId");
+        assertThat(member.getPassword()).isEqualTo("initPassword");
+        assertThat(member.getRole()).isEqualTo(Role.ADMIN);
+    }
+
+    @Test
+    @DisplayName("멤버 등록 테스트")
     public void add_member() {
         //given
         Member member = Member.builder()
@@ -42,6 +56,8 @@ public class MemberMapperTest {
         assertThat(saveMember.getPassword()).isEqualTo(member.getPassword());
         assertThat(saveMember.getRole()).isEqualTo(member.getRole());
     }
+
+
 
     @Mapper
     interface MemberMapper {

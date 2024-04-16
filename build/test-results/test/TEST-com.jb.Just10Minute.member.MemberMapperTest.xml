@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.jb.Just10Minute.member.MemberMapperTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-04-16T14:13:18" hostname="Jamieui-MacBookPro.local" time="0.885">
+<testsuite name="com.jb.Just10Minute.member.MemberMapperTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-04-16T14:23:28" hostname="Jamieui-MacBookPro.local" time="0.746">
   <properties/>
-  <testcase name="멤버 등록" classname="com.jb.Just10Minute.member.MemberMapperTest" time="0.885"/>
-  <system-out><![CDATA[23:13:17.520 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.jb.Just10Minute.member.MemberMapperTest]: MemberMapperTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-23:13:17.658 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.jb.Just10Minute.Just10MinuteApplication for test class com.jb.Just10Minute.member.MemberMapperTest
+  <testcase name="id로 멤버 찾기 테스트" classname="com.jb.Just10Minute.member.MemberMapperTest" time="0.738"/>
+  <testcase name="멤버 등록 테스트" classname="com.jb.Just10Minute.member.MemberMapperTest" time="0.006"/>
+  <system-out><![CDATA[23:23:27.621 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.jb.Just10Minute.member.MemberMapperTest]: MemberMapperTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+23:23:27.721 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.jb.Just10Minute.Just10MinuteApplication for test class com.jb.Just10Minute.member.MemberMapperTest
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -13,11 +14,11 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v3.2.4)
 
-2024-04-16T23:13:17.986+09:00  INFO 21675 --- [Just10Minute] [    Test worker] c.j.J.member.MemberMapperTest            : Starting MemberMapperTest using Java 17.0.5 with PID 21675 (started by jamiehong in /Users/jamiehong/workspace/tdd)
-2024-04-16T23:13:17.988+09:00  INFO 21675 --- [Just10Minute] [    Test worker] c.j.J.member.MemberMapperTest            : No active profile set, falling back to 1 default profile: "default"
-2024-04-16T23:13:18.298+09:00  INFO 21675 --- [Just10Minute] [    Test worker] beddedDataSourceBeanFactoryPostProcessor : Replacing 'dataSource' DataSource bean with embedded version
-2024-04-16T23:13:18.466+09:00  INFO 21675 --- [Just10Minute] [    Test worker] o.s.j.d.e.EmbeddedDatabaseFactory        : Starting embedded database: url='jdbc:h2:mem:bbc91e5d-a754-44de-a4e5-60c6e36b4c30;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
-2024-04-16T23:13:18.723+09:00  INFO 21675 --- [Just10Minute] [    Test worker] c.j.J.member.MemberMapperTest            : Started MemberMapperTest in 0.99 seconds (process running for 2.011)
+2024-04-16T23:23:28.058+09:00  INFO 21795 --- [Just10Minute] [    Test worker] c.j.J.member.MemberMapperTest            : Starting MemberMapperTest using Java 17.0.5 with PID 21795 (started by jamiehong in /Users/jamiehong/workspace/tdd)
+2024-04-16T23:23:28.059+09:00  INFO 21795 --- [Just10Minute] [    Test worker] c.j.J.member.MemberMapperTest            : No active profile set, falling back to 1 default profile: "default"
+2024-04-16T23:23:28.369+09:00  INFO 21795 --- [Just10Minute] [    Test worker] beddedDataSourceBeanFactoryPostProcessor : Replacing 'dataSource' DataSource bean with embedded version
+2024-04-16T23:23:28.544+09:00  INFO 21795 --- [Just10Minute] [    Test worker] o.s.j.d.e.EmbeddedDatabaseFactory        : Starting embedded database: url='jdbc:h2:mem:2cd2d89a-b469-4a5d-b497-3ff2c1636dd5;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2024-04-16T23:23:28.853+09:00  INFO 21795 --- [Just10Minute] [    Test worker] c.j.J.member.MemberMapperTest            : Started MemberMapperTest in 1.054 seconds (process running for 2.013)
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
