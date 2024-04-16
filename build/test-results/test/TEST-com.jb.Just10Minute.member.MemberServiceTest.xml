@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.jb.Just10Minute.member.MemberServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-04-16T14:41:34" hostname="Jamieui-MacBookPro.local" time="0.994">
+  <properties/>
+  <testcase name="멤버 등록 실패 : 이미 존재하는 아이디" classname="com.jb.Just10Minute.member.MemberServiceTest" time="0.994"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
