@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.jb.Just10Minute.member.MemberMapperTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-04-16T13:44:42" hostname="Jamieui-MacBookPro.local" time="0.928">
+  <properties/>
+  <testcase name="MemberMapper가 null이 아님" classname="com.jb.Just10Minute.member.MemberMapperTest" time="0.928"/>
+  <system-out><![CDATA[22:44:41.459 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.jb.Just10Minute.member.MemberMapperTest]: MemberMapperTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+22:44:41.595 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.jb.Just10Minute.Just10MinuteApplication for test class com.jb.Just10Minute.member.MemberMapperTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.4)
+
+2024-04-16T22:44:42.002+09:00  INFO 21324 --- [Just10Minute] [    Test worker] c.j.J.member.MemberMapperTest            : Starting MemberMapperTest using Java 17.0.5 with PID 21324 (started by jamiehong in /Users/jamiehong/workspace/tdd)
+2024-04-16T22:44:42.004+09:00  INFO 21324 --- [Just10Minute] [    Test worker] c.j.J.member.MemberMapperTest            : No active profile set, falling back to 1 default profile: "default"
+2024-04-16T22:44:42.390+09:00  INFO 21324 --- [Just10Minute] [    Test worker] beddedDataSourceBeanFactoryPostProcessor : Replacing 'dataSource' DataSource bean with embedded version
+2024-04-16T22:44:42.609+09:00  INFO 21324 --- [Just10Minute] [    Test worker] o.s.j.d.e.EmbeddedDatabaseFactory        : Starting embedded database: url='jdbc:h2:mem:14312f4d-2f24-410a-8819-84feba082dac;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2024-04-16T22:44:42.935+09:00  INFO 21324 --- [Just10Minute] [    Test worker] c.j.J.member.MemberMapperTest            : Started MemberMapperTest in 1.257 seconds (process running for 2.448)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
