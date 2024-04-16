@@ -30,7 +30,7 @@ public class testRunner implements ApplicationRunner {
         log.info("url : {}", con.getMetaData().getURL());
         log.info("userName : {}", con.getMetaData().getUserName());
 
-        List<Map<String, Object>> maps = jdbcTemplate.queryForList("SELECT * FROM test_table");
+        List<Map<String, Object>> maps = jdbcTemplate.queryForList("SELECT * FROM member");
         maps.stream().forEach(m -> log.info(m.toString()));
     }
 }
